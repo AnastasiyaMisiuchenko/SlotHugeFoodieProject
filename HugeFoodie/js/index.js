@@ -1,14 +1,11 @@
-let a = 5;
-let b = 4;
-class A {
-    constructor() {
+import Test from "./main.js";
 
-    }
-    printf(txt){
-        console.log(txt)
-    }
-}
+const config = {
+    width: 1080,
+    height: 800,
+    type: Phaser.WEBGL,
+    parent: 'my_game',
+    scene: Test
+};
 
-let objA = new A();
-objA.printf("a + b = " + (a + b) );
-console.log(a + b);
+const game = new Phaser.Game(config);
