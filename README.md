@@ -1,4 +1,4 @@
-# Slot Huge Foodie 
+# Slot Huge Foodie 🍓🥩🥞
 (web application)
 
 Русский:
